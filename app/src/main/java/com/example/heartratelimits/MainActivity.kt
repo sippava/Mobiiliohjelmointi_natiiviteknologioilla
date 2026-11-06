@@ -47,7 +47,7 @@ fun HeartRateLimits(modifier: Modifier = Modifier) {
     val lower = if (age > 0) (220 - age) * 0.65f else 0.0f
     val upper = if (age > 0) (220 - age) * 0.85f else 0.0f
 
-    // Muutetaan tulokset kahden desimaalin tarkkuuteen
+    // Muutetaan tulokset kahden desimaalin tarkkuuteen joo
     val lowerFormatted = String.format("%.2f", lower)
     val upperFormatted = String.format("%.2f", upper)
 
